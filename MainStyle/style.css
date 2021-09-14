@@ -1,0 +1,184 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.box {
+  content: "";
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 10%);
+          transform: translate(-50%, 10%);
+  -webkit-box-shadow: 10px 10px 30px #c0c0c0a4;
+          box-shadow: 10px 10px 30px #c0c0c0a4;
+  background-color: white;
+  border-radius: 5px;
+  height: 600px;
+  width: 900px;
+}
+
+.box .log {
+  padding: 50px 40px;
+}
+
+.box .log h3 {
+  color: #ff5454;
+  text-align: center;
+}
+
+.box .log .icon {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box .log .icon .icon_back {
+  height: 40px;
+  width: 40px;
+  color: #ff5454;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border: 2px solid #ff5454;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+
+.box .log .registrtion_paragraph {
+  text-align: center;
+  color: #0e0824;
+}
+
+.box .log .form-control {
+  margin: 15px 10px;
+  padding: 12px;
+  background-color: #f7f8f9;
+  border: 2px solid #d9e5e9;
+  border-radius: 8px;
+}
+
+.box .log .btn1 {
+  padding: 12px 50px;
+  border-radius: 10px;
+  border: 2px solid #ff5454;
+  margin-left: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #ff5454;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.box .log .btn1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.box .log .btn1 span::after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.box .log .btn1:hover span {
+  padding-right: 25px;
+}
+
+.box .log .btn1:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.box .log .btn2 {
+  padding: 12px 50px;
+  border-radius: 10px;
+  border: 2px solid #ff5454;
+  margin-left: 10px;
+  color: #ff5454;
+  font-weight: 500;
+  background-color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.box .log .btn2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.box .log .btn2 span::after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.box .log .btn2:hover span {
+  padding-right: 25px;
+}
+
+.box .log .btn2:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.img_ilestration img {
+  height: 600px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.spn {
+  color: #ff5454;
+}
+
+.privacy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.privacy .check_box {
+  margin-left: 20px;
+  height: 25px;
+  width: 15px;
+  color: #ff5454;
+}
+
+.privacy .check_box:checked ~ .check_box {
+  background-color: #ff5454;
+}
+
+.privacy p {
+  padding-left: 15px;
+}
+/*# sourceMappingURL=style.css.map */
